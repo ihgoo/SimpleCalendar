@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+
+
+
+
+    <color name="drak_green">#156389</color>
+    <color name="white1">#f0f0ee</color>
+    <color name="orange">#fc7b5c</color>
+    <color name="blue">#23b0f2</color>
+    <color name="black2">#4a4a4a</color>
+
+    <color name="background">#F7F4F0</color>
+    <color name="title_color">#333333</color>
+
+
+
+
+
+
+    <color name="gray">#acacac</color>
+    <color name="gray0">#f2f2f2</color>
+    <color name="gray1">#8f8f8f</color>
+    <color name="gray2">#838383</color>
+    <color name="gray3">#e0e0e0</color>
+    <color name="gray4">#f0f0f0</color>
+    <color name="gray5">#f3f3f3</color>
+    <color name="gray6">#5c5c5c</color>
+    <color name="gray8">#838383</color>
+    <color name="gray9">#b9b9b9</color>
+    <color name="gray10">#f8f8f8</color>
+    <color name="gray11">#aaaaaa</color>
+    <color name="gray12">#F5F5F5</color>
+    <color name="gray13">#8b8b8b</color>
+    <color name="gray14">#898989</color>
+
+
+    <color name="black_01">#333333</color>
+    <color name="black_02">#666666</color>
+    <color name="black_03">#4a4a4a</color>
+    <color name="yellow1">#FFFF8300</color>
+    <color name="yellow2">#FFFFBB73</color>
+    <color name="yellow3">#fff6b400</color>
+    <color name="gray05">#FF111111</color>
+    <color name="white4bg">#f0f0f0</color>
+    <color name="normal4bg">#f5f5f5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black1">#010101</color>
+    <color name="cutbg">#faf4ed</color>
+    <color name="selectblack">#333333</color>
+    <color name="pink">#faaecd</color>
+    <color name="pink2">#fff1f7</color>
+    <color name="pink3">#fff3f5</color>
+    <color name="pink4">#ff6eaa</color>
+    <color name="pink5">#ee407b</color>
+    <color name="indanger">#f4ffe2</color>
+    <color name="pink6">#ff6898</color>
+    <color name="pink7">#ff4c8e</color>
+
+    <color name="gray_line">#d1d1d1</color>
+    <color name="lineGray">#bbbbbb</color>
+    <color name="red">#ff0000</color>
+
+    <color name="slectimg">#86222222</color>
+    <color name="link">#feb4d3</color>
+    <color name="legend">#b3b3b3</color>
+    <color name="linecolor">#b2b2b2</color>
+    <color name="curcolor">#ffffbdeb</color>
+    <color name="tabselect">#ff8dbd</color>
+
+    <drawable name="file_other">#fff00f</drawable>
+
+    <color name="slectmessage">#ffe0ed</color>
+    <!-- 曲线颜色 -->
+    <color name="line_0">#f5f4f3</color>
+    <color name="line_1">#fdc689</color>
+    <color name="line_2">#fda2fb</color>
+    <color name="line_3">#fda2cb</color>
+    <color name="label">#333333</color>
+    <color name="rect_1">#ffd570</color>
+    <color name="rect_2">#c5e661</color>
+    <color name="rect_3">#a5d1ff</color>
+    <color name="rect_4">#bbc4fc</color>
+    <color name="round">#ffd1e2</color>
+    <color name="mood1">#bee914</color>
+    <color name="mood2">#cbed43</color>
+    <color name="mood3">#d8f272</color>
+    <color name="mood4">#e5f6a1</color>
+    <color name="mood5">#f2fbd0</color>
+    <color name="mood">#f6fde2</color>
+
+    <!-- 灰色系 -->
+    <color name="gray_1">#333333</color>
+    <color name="gray_2">#666666</color>
+    <color name="gray_3">#999999</color>
+    <color name="gray_4">#cccccc</color>
+    <color name="gray_5">#fafafa</color>
+    <color name="gray_6">#ebebeb</color>
+    <color name="gray_7">#6c6c6c</color>
+    <color name="gray_8">#80000000</color>
+    <color name="gray_9">#8d8d8d</color>
+    <color name="gray_10">#c4c4c4</color>
+    <color name="gray_11">#efefef</color>
+    <color name="gray_12">#f9f9f9</color>
+    <color name="gray_13">#E4E4E4</color>
+
+
+
+
+    <!-- TabPageIndicator颜色值 -->
+    <color name="vpi__background_holo_dark">#ffffffff</color>
+    <color name="vpi__background_holo_light">#ff000000</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ffffffff</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffffffff</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <color name="circle_background">#f2f2f2</color>
+    <color name="line_background">#cccccc</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="done_text_color_normal">#333333</color>
+    <color name="done_text_color_disabled">#CCCCCC</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+    <color name="transparent_black">#7F000000</color>
+    <color name="darker_blue">#0099CC</color>
+    <color name="date_picker_text_normal">#FF999999</color>
+    <color name="calendar_header">#999999</color>
+    <color name="date_picker_view_animator">#f2f2f2</color>
+    <color name="calendar_selected_date_text">#FFD1D2D4</color>
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+    <color name="calendar_text_inactive">#40778088</color>
+    <color name="calendar_text_active">#ff778088</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <color name="transparent">#00000000</color>
+    <color name="float_transparent">#66000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D1D1D1</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+
+
+
+    <color name="comment_send_textcolor">#808080</color>
+    <color name="comment_send_textcolor_2">#4f4f4f</color>
+    <color name="comment_text_two_color">#727272</color>
+
+    <color name="dark_gray">#333333</color>
+    <color name="light_gray">#AFFFFFFF</color>
+
+
+
+    <color name="store_buy_font_normal">#ff5d38</color>
+    <color name="store_buy_font_pressed">#d94f30</color>
+</resources>
