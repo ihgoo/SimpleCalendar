@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:visibility="visible"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:background="@color/gray_btn_bg_color"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <TextView
+        android:background="@mipmap/bg_calendar_normal"
+        android:id="@+id/tv_calendar_day"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="12sp"
+        android:textColor="@color/blue"
+        android:textSize="17sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/tv_calendar_investment_value"
+        android:layout_marginTop="12.5dp"
+        android:layout_marginBottom="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/orange"
+        android:singleLine="true"
+        android:textSize="11sp" />
+
+</LinearLayout>
