@@ -1,7 +1,11 @@
 # SimpleCalendar
-模仿iOS风格日历
+----
+模仿iOS风格的日历
 
+## Usage
+---
+Import this modle into Android Studio.
 
-##效果
+## Screenshots
 ----
 ![](http://ihgoo.qiniudn.com/calender.gif)
