@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_investment_detail_calendar);
+        setContentView(R.layout.activity_detail_calendar);
         initView();
     }
 

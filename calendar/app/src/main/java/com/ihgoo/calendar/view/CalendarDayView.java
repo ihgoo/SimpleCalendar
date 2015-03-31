@@ -53,7 +53,7 @@ public class CalendarDayView extends LinearLayout {
     }
 
     public void setDayTextColor(){
-        tvCalendarDay.setTextColor(getResources().getColor(R.color.red));
+        tvCalendarDay.setTextColor(getResources().getColor(R.color.gray4));
     }
 
 }
