@@ -27,6 +27,6 @@
     <color name="gray_line">#d1d1d1</color>
     <color name="lineGray">#bbbbbb</color>
     <color name="red">#ff0000</color>
-
-
+    <color name="color_F2">#F2F2F2</color>
+    <color name="color_ED">#EDEDED</color>
 </resources>

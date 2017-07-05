@@ -7,12 +7,14 @@ import android.widget.BaseAdapter;
 
 import com.ihgoo.calendar.view.CalendarMonthView;
 
+import java.util.Calendar;
+
 /**
  * Created by ihgoo on 2015/3/20.
  */
 public class CalendarMonthAdapter extends BaseAdapter {
     private Context mContext;
-
+    private Calendar mCalendar = Calendar.getInstance();
 
     public CalendarMonthAdapter(Context mContext) {
         this.mContext = mContext;
@@ -35,8 +37,9 @@ public class CalendarMonthAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View view = new CalendarMonthView(mContext, position);
+        View view = new CalendarMonthView(mContext,mCalendar.get(Calendar.MONTH)+position);
         return view;
     }
+
 
 }
