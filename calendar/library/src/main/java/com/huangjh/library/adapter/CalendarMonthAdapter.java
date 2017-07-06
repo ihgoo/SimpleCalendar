@@ -1,18 +1,21 @@
-package com.ihgoo.calendar.adapter;
+package com.huangjh.library.adapter;
 
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.ihgoo.calendar.view.CalendarMonthView;
+
+import com.huangjh.library.view.CalendarMonthView;
+
+import java.util.Calendar;
 
 /**
  * Created by ihgoo on 2015/3/20.
  */
 public class CalendarMonthAdapter extends BaseAdapter {
     private Context mContext;
-
+    private Calendar mCalendar = Calendar.getInstance();
 
     public CalendarMonthAdapter(Context mContext) {
         this.mContext = mContext;
@@ -35,8 +38,9 @@ public class CalendarMonthAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View view = new CalendarMonthView(mContext, position);
+        View view = new CalendarMonthView(mContext,mCalendar.get(Calendar.MONTH)+position);
         return view;
     }
+
 
 }

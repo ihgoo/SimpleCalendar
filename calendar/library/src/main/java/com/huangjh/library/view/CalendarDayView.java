@@ -1,12 +1,13 @@
-package com.ihgoo.calendar.view;
 
+package com.huangjh.library.view;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.ihgoo.calendar.R;
+
 
 
 /**
@@ -17,16 +18,25 @@ public class CalendarDayView extends LinearLayout {
     TextView tvCalendarDay;
     TextView tvCalendarInvestmentValue;
     LinearLayout ll;
-
+    String date ;
 
     private View dayView;
 
-    public CalendarDayView(Context context) {
+    public CalendarDayView(final Context context) {
         super(context);
         dayView = LinearLayout.inflate(context, R.layout.item_calendar_day, this);
         tvCalendarDay = (TextView) dayView.findViewById(R.id.tv_calendar_day);
         tvCalendarInvestmentValue = (TextView) dayView.findViewById(R.id.tv_calendar_investment_value);
         ll = (LinearLayout) dayView.findViewById(R.id.ll);
+        dayView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context,
+                        date,
+                        Toast.LENGTH_SHORT).show();
+
+            }
+        });
     }
 
     public CalendarDayView(Context context, AttributeSet attrs) {
@@ -53,7 +63,18 @@ public class CalendarDayView extends LinearLayout {
     }
 
     public void setDayTextColor(){
-        tvCalendarDay.setTextColor(getResources().getColor(R.color.gray4));
+        dayView.setClickable(false);
+        tvCalendarDay.setTextColor(getResources().getColor(R.color.color_F2));
+    }
+    public void setWeekendColor(){
+        tvCalendarDay.setTextColor(getResources().getColor(R.color.gray2));
     }
 
+    public void setDate(String getDate){
+        date = getDate;
+    }
+    public void setThisDayColor(){
+        tvCalendarDay.setBackground(getResources().getDrawable(R.mipmap.bg_calendar_select));
+        tvCalendarDay.setTextColor(getResources().getColor(R.color.white));
+    }
 }
